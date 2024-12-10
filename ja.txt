@@ -1,24 +1,4 @@
-#include<stdio.h>
-int main()
-{
-  int a=10,b=20,c;
-  printf("A=%d B=%d",a,b);
-  c=a+b;
-  printf("RESULT=%d",c);
-}  
-
-//same program using scanf
-
-#include<stdio.h>
-int main()
-{
-  int a=10,b=20,c;
-  printf("enter the value of A and B\n");
-  scanf("%d%d",&a,&b);
-  c=a+b;
-  printf("RESULT=%d",c);
-}
-//swapping of 2 numbers
+//swapping of 2 numbers with using 3 variable
 
 #include<stdio.h>
 int main()
@@ -30,7 +10,7 @@ int main()
   b=c;
   printf("after the swapping  A=%d B%d,a,b);
 }
- //same program using scanf
+ //same program using scanf without using 3 variable
 
 #include<stdio.h>
 int main()
